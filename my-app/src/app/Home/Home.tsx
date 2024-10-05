@@ -1,4 +1,4 @@
-import Image from 'next/image';
+
 
 import "./css/styles.css";
 import Gitlogo from "./../images/github-mark/github-mark-white.svg";
@@ -6,7 +6,7 @@ import ReactLogo from "./../images/react-2.svg";
 import NextLogo from "./../images/nextjs-icon-svgrepo-com.svg";
 import TailwindLogo from "./../images/tailwind-css-2.svg";
 import DiscordJsLogo from "./../images/Discord.js.svg";
-
+import Image from "next/image";
 function displayImgText(href:string, src:string, alt:string){
     return (
         <a className="Logo" href={href}><Image className="Logo" src={src} alt={alt}></Image></a>
