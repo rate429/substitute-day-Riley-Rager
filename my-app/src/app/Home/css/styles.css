@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home {
+    @apply bg-[rgb(35,35,35)] flex  justify-center items-center min-h-[100vh] w-[100vw];
+}
+
+.source {
+    @apply flex justify-end items-center w-full h-[35px] fixed top-0 right-0;
+}
+.sourceBtn {
+    @apply flex justify-center items-center w-[35px] h-[35px] bg-black cursor-pointer rounded-[10%];
+}
+.sourceBtnImage {
+    @apply w-[30px] h-[30px];
+}
+
+.content {
+    @apply flex rounded-[15px] w-[80%] bg-[rgb(255,255,255)] my-auto flex-col ;
+}
+
+.text {
+    @apply text-[rgb(35,35,35)] text-[15px] p-2;
+}
+
+.Logo {
+    @apply inline-block w-[20px] h-[15px];
+}
